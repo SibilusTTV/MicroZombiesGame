@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{38A39C13-46A2-01F7-7463-9872DCB3C13C}</ProjectGuid>
+    <ProjectGuid>{E96683DE-6B17-6238-48C4-03FEAB279E0C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,10 +56,10 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" />
-    <Compile Include="Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
     <Compile Include="Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs" />
     <Compile Include="Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs" />
+    <Compile Include="Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" />
+    <Compile Include="Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
     <Compile Include="Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -711,7 +711,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{10E359BA-790A-3AE2-0795-B041FCB66676}</Project>
+      <Project>{64C42548-E156-BD5A-609E-E7B796AED458}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

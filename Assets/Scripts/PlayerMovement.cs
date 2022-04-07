@@ -6,52 +6,85 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
     public float speed = 12f;
-    public float gravity = -9.81f;
-    public float jumpHeight = 3f;
+    public float g = -9.81f;
+    public float jumpHeight = 1f;
 
     public Transform player;
-    public float groundDistance = 0.2f;
     public LayerMask groundMask;
+    public LayerMask headMask;
 
-    private Vector3 velocity;
+    private Vector3 gravity;
     private bool isGrounded;
-    private Vector3 playerBottom;
-    private Vector3 boxSize;
+    private bool canJump;
+    private Vector3 sphereCenter;
+    private float sphereRadius;
+    private float sphereOffset;
+    Vector3 normalizedVector;
+    float x;
+    float z;
+    float a;
+    float l;
 
     private void Start()
     {
-        boxSize = new Vector3(controller.radius, groundDistance, controller.radius);
+        sphereRadius = controller.radius;
+        sphereOffset = controller.height / 2 - sphereRadius + 0.1f;
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         float time = Time.deltaTime;
-        playerBottom = player.transform.localPosition;
-        playerBottom.y -= controller.height / 2;
-        Quaternion q = new Quaternion(0f, 0f, 0f, 0f);
-        isGrounded = Physics.CheckBox(playerBottom, boxSize, q, groundMask);
+        sphereCenter = player.transform.localPosition;
+        sphereCenter.y -= sphereOffset;
+        canJump = Physics.CheckSphere(sphereCenter, sphereRadius, groundMask);
+        isGrounded = canJump || Physics.CheckSphere(sphereCenter, sphereRadius, headMask);
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-        Vector3 move = transform.right * x + transform.forward * z;
-        move *= speed * time;
+        x = Input.GetAxis("Horizontal");
+        z = Input.GetAxis("Vertical");
+        normalizedVector = NormalizeVector(x, z);
+        Vector3 move = transform.right * normalizedVector.x + transform.forward * normalizedVector.z;
+        move *= speed;
 
-        if (isGrounded && velocity.y < 0)
+
+        if (isGrounded)
         {
-            velocity.y = -0.1f;
+            gravity.y = -0.1f;
         }
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (isGrounded && canJump && Input.GetButtonDown("Jump"))
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity) * time;
+            gravity.y = Mathf.Sqrt(jumpHeight * -2 * g);
+        }
+        else if (!isGrounded)
+        {
+            gravity.y += g * time;
+        }
+
+        controller.Move(move * time);
+        controller.Move(gravity * time);
+    }
+
+    public Vector3 NormalizeVector(float x, float z)
+    {
+        if (x > z && x != 0)
+        {
+            a = z / x;
+
+        }
+        else if (x < z && z != 0)
+        {
+            a = x / z;
         }
         else
         {
-            velocity.y += gravity * time * time;
+            a = 1f;
         }
 
-        controller.Move(move);
-        controller.Move(velocity);
+        l = Mathf.Sqrt(1f + Mathf.Pow(a, 2f));
+        x /= l;
+        z /= l;
+
+        return new Vector3(x, 0f, z);
     }
 }

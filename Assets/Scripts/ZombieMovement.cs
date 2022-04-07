@@ -51,52 +51,62 @@ public class ZombieMovement : MonoBehaviour
     }
 
     public void GetClosestPlayer()
-    { 
+    {
+        
         if (player1 != null)
         {
+            Vector3 player1Position = player1.position;
+            player1Position.y -= 1.8f;
             if (player2 != null)
             {
-                float player1Distance = Vector3.Distance(zombie.position, player1.position);
-                float player2Distance = Vector3.Distance(zombie.position, player2.position);
+                Vector3 zombiePosition = zombie.position;
+                Vector3 player2Position = player2.position;
+                player2Position.y -= 1.8f;
+                float player1Distance = Vector3.Distance(zombiePosition, player1Position);
+                float player2Distance = Vector3.Distance(zombiePosition, player2Position);
 
                 if (player3 != null)
                 {
-                    float player3Distance = Vector3.Distance(zombie.position, player3.position);
+                    Vector3 player3Position = player3.position;
+                    player3Position.y -= 1.8f;
+                    float player3Distance = Vector3.Distance(zombiePosition, player3Position);
 
                     if (player4 != null)
                     {
-                        float player4Distance = Vector3.Distance(zombie.position, player4.position);
+                        Vector3 player4Position = player4.position;
+                        player4Position.y -= 1.8f;
+                        float player4Distance = Vector3.Distance(zombiePosition, player4Position);
 
                         if (player1Distance < player2Distance && player1Distance < player3Distance && player1Distance < player4Distance)
                         {
-                            destination = player1.position;
+                            destination = player1Position;
                         }
                         else if (player2Distance < player1Distance && player2Distance < player3Distance && player2Distance < player4Distance)
                         {
-                            destination = player2.position;
+                            destination = player2Position;
                         }
                         else if (player3Distance < player1Distance && player3Distance < player2Distance && player3Distance < player4Distance)
                         {
-                            destination = player3.position;
+                            destination = player3Position;
                         }
                         else
                         {
-                            destination = player4.position;
+                            destination = player4Position;
                         }
                     }
                     else
                     {
                         if (player1Distance < player2Distance && player1Distance < player3Distance)
                         {
-                            destination = player1.position;
+                            destination = player1Position;
                         }
                         else if (player2Distance < player1Distance && player2Distance < player3Distance)
                         {
-                            destination = player2.position;
+                            destination = player2Position;
                         }
                         else
                         {
-                            destination = player3.position;
+                            destination = player3Position;
                         }
                     }
                 }
@@ -104,17 +114,17 @@ public class ZombieMovement : MonoBehaviour
                 {
                     if (player1Distance < player2Distance)
                     {
-                        destination = player1.position;
+                        destination = player1Position;
                     }
                     else
                     {
-                        destination = player2.position;
+                        destination = player2Position;
                     }
                 }
             }
             else
             {
-                destination = player1.position;
+                destination = player1Position;
             }
         }
     }

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{10E359BA-790A-3AE2-0795-B041FCB66676}</ProjectGuid>
+    <ProjectGuid>{64C42548-E156-BD5A-609E-E7B796AED458}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,14 +56,14 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/GroundCheck.cs" />
-    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
-    <Compile Include="Assets/Scripts/MouseLook.cs" />
-    <Compile Include="Assets/NavMeshComponents/Scripts/NavMeshModifier.cs" />
-    <Compile Include="Assets/NavMeshComponents/Scripts/NavMeshLink.cs" />
-    <Compile Include="Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" />
     <Compile Include="Assets/NavMeshComponents/Scripts/NavMeshSurface.cs" />
+    <Compile Include="Assets/Scripts/GroundCheck.cs" />
+    <Compile Include="Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" />
+    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/ZombieMovement.cs" />
+    <Compile Include="Assets/Scripts/MouseLook.cs" />
+    <Compile Include="Assets/NavMeshComponents/Scripts/NavMeshLink.cs" />
+    <Compile Include="Assets/NavMeshComponents/Scripts/NavMeshModifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
