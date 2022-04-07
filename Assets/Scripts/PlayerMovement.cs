@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     float z;
     float a;
     float l;
+    Vector3 acc;
 
     private void Start()
     {
@@ -40,12 +41,12 @@ public class PlayerMovement : MonoBehaviour
         canJump = Physics.CheckSphere(sphereCenter, sphereRadius, groundMask);
         isGrounded = canJump || Physics.CheckSphere(sphereCenter, sphereRadius, headMask);
 
+        acc = Input.acceleration;
         x = Input.GetAxis("Horizontal");
         z = Input.GetAxis("Vertical");
         normalizedVector = NormalizeVector(x, z);
         Vector3 move = transform.right * normalizedVector.x + transform.forward * normalizedVector.z;
         move *= speed;
-
 
         if (isGrounded)
         {
@@ -67,12 +68,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Vector3 NormalizeVector(float x, float z)
     {
-        if (x > z && x != 0)
+        if (Mathf.Abs(x) > Mathf.Abs(z) && x != 0)
         {
-            a = z / x;
+            a = z / x; //  z = -1; x = 0.1;  
 
         }
-        else if (x < z && z != 0)
+        else if (Mathf.Abs(x) < Mathf.Abs(z) && z != 0)
         {
             a = x / z;
         }
