@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundMask;
     public LayerMask headMask;
 
-    private Vector3 gravity;
+    private Vector3 velocity;
     private bool isGrounded;
     private bool canJump;
     private Vector3 sphereCenter;
@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         sphereRadius = controller.radius;
-        sphereOffset = controller.height / 2 - sphereRadius + 0.1f;
+        sphereOffset = controller.height / 2 - sphereRadius + 0.2f;
     }
 
     // Update is called once per frame
@@ -50,20 +50,23 @@ public class PlayerMovement : MonoBehaviour
 
         if (isGrounded)
         {
-            gravity.y = -0.1f;
+            velocity.y = -0.2f;
         }
 
         if (isGrounded && canJump && Input.GetButtonDown("Jump"))
         {
-            gravity.y = Mathf.Sqrt(jumpHeight * -2 * g);
+            velocity.y = Mathf.Sqrt(jumpHeight * -2 * g);
         }
         else if (!isGrounded)
         {
-            gravity.y += g * time;
+            velocity.y += g * time;
         }
 
-        controller.Move(move * time);
-        controller.Move(gravity * time);
+        if (isGrounded)
+        {
+            controller.Move(move * time);
+        }
+        controller.Move(velocity * time);
     }
 
     public Vector3 NormalizeVector(float x, float z)
