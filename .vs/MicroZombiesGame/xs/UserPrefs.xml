@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{64C42548-E156-BD5A-609E-E7B796AED458}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="53" Column="30" />
-      <File FileName="Assets/Scripts/ZombieMovement.cs" Line="68" Column="37" />
       <File FileName="Assets/Scripts/MouseLook.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="53" Column="30" />
+      <File FileName="Assets/Scripts/ZombieMovement.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,7 @@
                 <Node name="Editor" expanded="True" />
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerMovement.cs" selected="True" />
+                <Node name="MouseLook.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -24,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8c0a9738-0145-4f2b-8f6c-948fcb48c436" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fb9a86fa-6bb1-48f9-961b-f1d0a93e1729" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

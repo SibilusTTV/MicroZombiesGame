@@ -22,196 +22,104 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53760
+56032
 Successfully changed project path to: /Users/jpfeiff/Documents/GitHub/MicroZombiesGame
 /Users/jpfeiff/Documents/GitHub/MicroZombiesGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 137.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-08 08:00:20.971 Unity[5895:292065] Acer K272HL preferred device: Intel(R) UHD Graphics 630 (low power)
-2022-04-08 08:00:20.971 Unity[5895:292065] Metal devices available: 1
-2022-04-08 08:00:20.971 Unity[5895:292065] 0: Intel(R) UHD Graphics 630 (low power)
-2022-04-08 08:00:20.972 Unity[5895:292065] Using device Intel(R) UHD Graphics 630 (low power)
+2022-04-08 10:51:03.927 Unity[8590:380796] Acer K272HL preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-04-08 10:51:03.927 Unity[8590:380796] Metal devices available: 1
+2022-04-08 10:51:03.927 Unity[8590:380796] 0: Intel(R) UHD Graphics 630 (low power)
+2022-04-08 10:51:03.927 Unity[8590:380796] Using device Intel(R) UHD Graphics 630 (low power)
 Initializing Metal device caps: Intel(R) UHD Graphics 630
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56895
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56590
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002171 seconds.
+Registered in 0.000511 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 40.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.726 seconds
+- Completed reload, in  0.730 seconds
 Domain Reload Profiling:
-	ReloadAssembly (726ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (574ms)
+		EndReloadAssembly (576ms)
 			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (225ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (30ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000370 seconds.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
+Registered in 0.001226 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  1.276 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1175ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (180ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (46ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (290ms)
-			SetupLoadedEditorAssemblies (307ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (359ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000646 seconds.
+Validating Project structure ... 0.001144 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.001014 seconds.
+Upgrading shader files ...0.000766 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -221,82 +129,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-[C# Project] Writing /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Assembly-CSharp.csproj because it has changed
-[C# Project] First difference on line 4
-
-[C# Project] Current /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Assembly-CSharp.csproj:
-[C# Project]   004:     <LangVersion>8.0</LangVersion>
-[C# Project]   005:   </PropertyGroup>
-[C# Project]   006:   <PropertyGroup>
-[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-
-[C# Project] New /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Assembly-CSharp.csproj:
-[C# Project]   004:     <LangVersion>latest</LangVersion>
-[C# Project]   005:   </PropertyGroup>
-[C# Project]   006:   <PropertyGroup>
-[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-[C# Project] Writing /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Assembly-CSharp-Editor.csproj because it has changed
-[C# Project] First difference on line 4
-
-[C# Project] Current /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Assembly-CSharp-Editor.csproj:
-[C# Project]   004:     <LangVersion>8.0</LangVersion>
-[C# Project]   005:   </PropertyGroup>
-[C# Project]   006:   <PropertyGroup>
-[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-
-[C# Project] New /Users/jpfeiff/Documents/GitHub/MicroZombiesGame/Assembly-CSharp-Editor.csproj:
-[C# Project]   004:     <LangVersion>latest</LangVersion>
-[C# Project]   005:   </PropertyGroup>
-[C# Project]   006:   <PropertyGroup>
-[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+2022-04-08 10:51:07.383 Unity[8590:380796] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000177a220 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-08 10:51:07.388 Unity[8590:380796] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001704150 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(2) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1881 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.5 MB.
-System memory in use after: 168.6 MB.
+Unloading 1882 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.1 MB.
+System memory in use after: 198.3 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2352.
-Total: 3.641803 ms (FindLiveObjects: 0.422614 ms CreateObjectMapping: 0.145597 ms MarkObjects: 2.520234 ms  DeleteObjects: 0.551922 ms)
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 4.041385 ms (FindLiveObjects: 0.198337 ms CreateObjectMapping: 0.107094 ms MarkObjects: 3.174837 ms  DeleteObjects: 0.560144 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -310,876 +156,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Zombie.prefab
-  artifactKey: Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Zombie.prefab using Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.957531 seconds  code(4) message(Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:00:02Z')
-  ERROR: Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:00:02Z'
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000357 seconds.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
-Domain Reload Profiling:
-	ReloadAssembly (862ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (665ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (244ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.5 MB.
-System memory in use after: 167.7 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 3.002415 ms (FindLiveObjects: 0.213796 ms CreateObjectMapping: 0.110887 ms MarkObjects: 2.656603 ms  DeleteObjects: 0.019988 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 209.926867 seconds.
-  path: Assets/Prefabs/Zombie.prefab
-  artifactKey: Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Zombie.prefab using Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.099904 seconds  code(4) message(Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:00:02Z')
-  ERROR: Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:00:02Z'
-========================================================================
-Received Import Request.
-  Time since last request: 658.486483 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000090 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
-========================================================================
-Received Import Request.
-  Time since last request: 17.400499 seconds.
-  path: Assets/Prefabs/Zombie.prefab
-  artifactKey: Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Zombie.prefab using Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007864 seconds  code(4) message(Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:00:02Z')
-  ERROR: Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:00:02Z'
-========================================================================
-Received Import Request.
-  Time since last request: 7.674891 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000249 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
-========================================================================
-Received Import Request.
-  Time since last request: 3.106995 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000067 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000424 seconds.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (925ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (714ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (286ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (148ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2361.
-Total: 2.859090 ms (FindLiveObjects: 0.140700 ms CreateObjectMapping: 0.061873 ms MarkObjects: 2.633474 ms  DeleteObjects: 0.021974 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 824.636124 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000066 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
-========================================================================
-Received Import Request.
-  Time since last request: 18.244317 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(0ba64c782dc6d4c179ef6bde7ec134b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(0ba64c782dc6d4c179ef6bde7ec134b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.202762 seconds  code(4) message(Build asset version error: assets/scripts/playermovement.cs in SourceAssetDB has modification time of '2022-04-07T17:04:31.8972985Z' while content on disk has modification time of '2022-04-08T06:00:02Z')
-  ERROR: Build asset version error: assets/scripts/playermovement.cs in SourceAssetDB has modification time of '2022-04-07T17:04:31.8972985Z' while content on disk has modification time of '2022-04-08T06:00:02Z'
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000402 seconds.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
-Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (669ms)
-			LoadAssemblies (38ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (253ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.0 MB.
-System memory in use after: 172.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2361.
-Total: 2.616207 ms (FindLiveObjects: 0.149331 ms CreateObjectMapping: 0.072041 ms MarkObjects: 2.375065 ms  DeleteObjects: 0.018346 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 173.004950 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(0ba64c782dc6d4c179ef6bde7ec134b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(0ba64c782dc6d4c179ef6bde7ec134b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003734 seconds  code(4) message(Build asset version error: assets/scripts/playermovement.cs in SourceAssetDB has modification time of '2022-04-07T17:04:31.8972985Z' while content on disk has modification time of '2022-04-08T06:32:10Z')
-  ERROR: Build asset version error: assets/scripts/playermovement.cs in SourceAssetDB has modification time of '2022-04-07T17:04:31.8972985Z' while content on disk has modification time of '2022-04-08T06:32:10Z'
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000685 seconds.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Domain Reload Profiling:
-	ReloadAssembly (966ms)
-		BeginReloadAssembly (192ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (703ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (250ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.5 MB.
-System memory in use after: 172.7 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2361.
-Total: 2.632131 ms (FindLiveObjects: 0.166411 ms CreateObjectMapping: 0.058722 ms MarkObjects: 2.379440 ms  DeleteObjects: 0.026590 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1924.758333 seconds.
-  path: Assets/Prefabs/Zombie.prefab
-  artifactKey: Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Zombie.prefab using Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.070452 seconds  code(4) message(Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:15:23Z')
-  ERROR: Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:15:23Z'
-========================================================================
-Received Import Request.
-  Time since last request: 169.498811 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000071 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000409 seconds.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Required property 'name' not set (Packages/com.unity.probuilder/External/KdTree/Unity.ProBuilder.KdTree.asmdef)
-Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/Unity.ProBuilder.AssetIdRemapUtility.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/StlExporter/Unity.ProBuilder.Stl.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Addons/Unity.ProBuilder.AddOns.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
-Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/CSG/Unity.ProBuilder.Csg.asmdef)
-Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Runtime/Unity.ProBuilder.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/Editor/Unity.ProBuilder.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
-Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
-Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
-Required property 'name' not set (Packages/com.unity.probuilder/External/Poly2Tri/Unity.ProBuilder.Poly2Tri.asmdef)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
-Domain Reload Profiling:
-	ReloadAssembly (809ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (632ms)
-			LoadAssemblies (43ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.7 MB.
-System memory in use after: 172.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2362.
-Total: 2.384838 ms (FindLiveObjects: 0.134647 ms CreateObjectMapping: 0.060170 ms MarkObjects: 2.172875 ms  DeleteObjects: 0.016345 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 330.457891 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000049 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
-========================================================================
-Received Import Request.
-  Time since last request: 9.049863 seconds.
-  path: Assets/Prefabs/Zombie.prefab
-  artifactKey: Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Zombie.prefab using Guid(0d20450c58db74577a8c0522dc6eab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.059565 seconds  code(4) message(Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:15:23Z')
-  ERROR: Build asset version error: assets/prefabs/zombie.prefab in SourceAssetDB has modification time of '2022-04-07T17:38:58.7345137Z' while content on disk has modification time of '2022-04-08T06:15:23Z'
-========================================================================
-Received Import Request.
-  Time since last request: 84.318747 seconds.
-  path: Assets/Materials/ZombieHeadMaterial.mat
-  artifactKey: Guid(d7474f5b7fc77434e8c2956e9d79f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ZombieHeadMaterial.mat using Guid(d7474f5b7fc77434e8c2956e9d79f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.087099 seconds  code(4) message(Build asset version error: assets/materials/zombieheadmaterial.mat in SourceAssetDB has modification time of '2022-04-07T15:46:48.1208068Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
-  ERROR: Build asset version error: assets/materials/zombieheadmaterial.mat in SourceAssetDB has modification time of '2022-04-07T15:46:48.1208068Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000037 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
-========================================================================
-Received Import Request.
-  Time since last request: 750.745295 seconds.
-  path: Assets/Materials/ZombieHeadMaterial.mat
-  artifactKey: Guid(d7474f5b7fc77434e8c2956e9d79f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ZombieHeadMaterial.mat using Guid(d7474f5b7fc77434e8c2956e9d79f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002111 seconds  code(4) message(Build asset version error: assets/materials/zombieheadmaterial.mat in SourceAssetDB has modification time of '2022-04-07T15:46:48.1208068Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
-  ERROR: Build asset version error: assets/materials/zombieheadmaterial.mat in SourceAssetDB has modification time of '2022-04-07T15:46:48.1208068Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
   path: Assets/Materials/ZombieBodyMaterial.mat
   artifactKey: Guid(70c368e91c65c4b10a4144cf5125ef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ZombieBodyMaterial.mat using Guid(70c368e91c65c4b10a4144cf5125ef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.081361 seconds  code(4) message(Build asset version error: assets/materials/zombiebodymaterial.mat in SourceAssetDB has modification time of '2022-04-07T15:46:48.1203062Z' while content on disk has modification time of '2022-04-08T07:26:48Z')
-  ERROR: Build asset version error: assets/materials/zombiebodymaterial.mat in SourceAssetDB has modification time of '2022-04-07T15:46:48.1203062Z' while content on disk has modification time of '2022-04-08T07:26:48Z'
+Start importing Assets/Materials/ZombieBodyMaterial.mat using Guid(70c368e91c65c4b10a4144cf5125ef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a693b098e55da87a87f7688a80acb53') in 0.197172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Materials/ZombieEyesMaterial.mat
+  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ZombieEyesMaterial.mat using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8ac32cfc611bfd839784df5455a4fc') in 0.009784 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000191 seconds.
-  path: 
-  artifactKey: Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b11c868b30ec14393bb7f628fce359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000060 seconds  code(3) message(Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8')
-  ERROR: Unknown asset with GUID 'b11c868b30ec14393bb7f628fce359a8'
+  path: Assets/Materials/HeadMaterial.mat
+  artifactKey: Guid(d7474f5b7fc77434e8c2956e9d79f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HeadMaterial.mat using Guid(d7474f5b7fc77434e8c2956e9d79f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970d4c642c32e32cd6cb2907cd6957ab') in 0.008748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Materials/StandardMaterial.mat
+  artifactKey: Guid(9bf5eed2794a34b92a4f9e7159290519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StandardMaterial.mat using Guid(9bf5eed2794a34b92a4f9e7159290519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3558e98bf1ad3f29211950fad8251e') in 0.010145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Materials/PlayerMaterial.mat
+  artifactKey: Guid(2e58b40c4d8d9442d8be5bb84ee64271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlayerMaterial.mat using Guid(2e58b40c4d8d9442d8be5bb84ee64271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de327b7652bf1981fe5d51879d4b186') in 0.013290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.807021 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0bc7687ab8f0047b3bce81aec764d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0bc7687ab8f0047b3bce81aec764d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006ba91077ebcc941e1e975acea62521') in 0.137556 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
